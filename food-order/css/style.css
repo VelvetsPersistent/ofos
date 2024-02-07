@@ -1,0 +1,439 @@
+/* CSS for All */
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+.img-responsive {
+  width: 100%;
+}
+.img-curve {
+  border-radius: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-white {
+  color: white;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: #f17242;
+  text-decoration: none;
+}
+a:hover {
+  color: #f0561e;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 100px;
+}
+.btn-primary {
+  background-color: #f17242;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #f0561e;
+}
+h2 {
+  color: #f17242;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.error {
+  padding: 2%;
+  color: red;
+  font-size: 200%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200%;
+  background-color:rgb(12, 179, 208);
+  border-radius: 100%;
+  width: 50%;
+}
+.success {
+  padding: 2%;
+  color: green;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200%;
+  background-color:rgb(12, 179, 208);
+  border-radius: 100%;
+  width: 50%;
+  
+
+}
+
+
+/* CSSS for navbar section */
+
+.logo {
+  width: 10%;
+  float: left;
+}
+.menu {
+  line-height: 60px;
+}
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 2%;
+  font-weight: bold;
+}
+/* Banner Section */
+
+.banner-txt{
+  text-align: center;
+  color: #f17242;
+  padding-top: 1px;
+
+}
+.banner-txt h1{
+  font-size: 50px;
+  
+  font-family: fortnite;
+}
+.banner-txt h2{
+  font-size: 30px;
+  
+  font-family: fortnite;
+}
+.banner-txt h3{
+  font-size: 22px;
+  margin-left: auto;
+  margin-left: auto;
+  
+  font-family: fortnite;
+}
+.banner-txt p{
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  
+ 
+}
+
+.banner-btn{
+  margin: 20px auto 0;
+
+}
+.banner-btn a{
+  width: 110px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #f17242;
+  border: .5px solid #f17242;   
+  border-radius: 50px;
+  position: relative; 
+  z-index: 1;
+  transition: 0.2s;
+
+}
+.banner-btn a span{
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(255, 255, 255);
+  z-index: -1;
+  transition: 0.2s;
+  border-radius: 100px;
+  
+} 
+.banner-btn a:hover span{
+  width: 100%;
+}
+.banner-btn a:hover {
+ 
+  color: #f17242 ;
+}
+
+
+
+/* CSS for Food SEarch Section */
+
+.food-search {
+  background-image: url(../images/bgb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2% 0;
+  
+  
+}
+
+.food-search input[type="search"] {
+  width: 50%;
+  color: #f0561e;
+  padding: 1%;
+  font-size: 1rem;
+  border: 1px solid #f0561e;
+  border-radius: 100px;
+  
+}
+
+::placeholder { 
+  color: #f17242;
+ 
+  
+}
+
+
+/* CSS for Categories */
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+/* CSS for Food Menu */
+.food-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+.food-menu-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.food-menu-img {
+  width: 20%;
+  float: left;
+}
+
+.food-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+.food-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+/* Css for contact us */
+#footer{
+  width: 100%;
+  padding: 70px 0 20px;
+  background: #87def7;
+  position: relative;
+
+}
+.footer-row{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.footer-left,.footer-right{
+  flex-basis: 45%;
+  padding:10px;
+  margin-bottom: 20px;
+  
+
+}
+.footer-right{
+  text-align: right;
+
+}
+.footer-row h1{
+  margin: 10px;
+
+}
+.footer-row p{
+  line-height: 35px;
+}
+.footer-left .fa,.footer-right .fa{
+      font-size: 20px;
+      
+      margin: 10px;
+}
+/* CSS for Footer */
+.social ul {
+  list-style-type: none;
+}
+.social ul li {
+  display: inline;
+  padding: 1%;
+}
+.social-links{
+  text-align:center;
+
+}
+.social-links .fa{
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  border: 1px solid #f17242;
+  border-radius: 100px;
+  margin: 40px 5px 0;
+  color: #f17242;
+  cursor: pointer;
+  transition: .5s;
+}
+.social-links .fa:hover{
+  background: #f0561e;
+  color:white;
+  transform: translateY(-7px);
+
+}
+
+.social-links p{
+  font-size: 12px;
+  margin-top: 20px ;
+  font-style: italic;
+}
+
+/* for Order Section */
+.order {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-responsive {
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.order-label {
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+/* about us */
+
+.aboutus-text h3{
+  font-size: 22px;
+  color: #f17242;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: fortnite;
+  
+ padding-left: 150px;
+ padding-right: 150px;
+ text-align: center;
+ 
+}
+
+
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .food-search input[type="search"] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+
+  .btn {
+    width: 91%;
+    padding: 2%;
+  }
+
+  .food-search {
+    padding: 10% 0;
+  }
+
+  .categories {
+    padding: 20% 0;
+  }
+  h2 {
+    margin-bottom: 10%;
+  }
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+  }
+
+  .food-menu {
+    padding: 20% 0;
+  }
+
+  .food-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  .social {
+    padding: 5% 0;
+  }
+  .order {
+    width: 100%;
+  }
+}
